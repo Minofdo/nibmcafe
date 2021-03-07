@@ -1,0 +1,6 @@
+framework module Pods_nibmcafe {
+  umbrella header "Pods-nibmcafe-umbrella.h"
+
+  export *
+  module * { export * }
+}

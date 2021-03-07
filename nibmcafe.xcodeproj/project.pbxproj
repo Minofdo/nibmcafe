@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		341E36FBD807158EE06494C1 /* Pods_nibmcafe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF532FA6968AADFB690CA81C /* Pods_nibmcafe.framework */; };
+		EB2BE47D25F480F500BAF1A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE47C25F480F500BAF1A5 /* AppDelegate.swift */; };
+		EB2BE47F25F480F500BAF1A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE47E25F480F500BAF1A5 /* SceneDelegate.swift */; };
+		EB2BE48125F480F500BAF1A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE48025F480F500BAF1A5 /* ViewController.swift */; };
+		EB2BE48425F480F500BAF1A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2BE48225F480F500BAF1A5 /* Main.storyboard */; };
+		EB2BE48625F480F600BAF1A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2BE48525F480F600BAF1A5 /* Assets.xcassets */; };
+		EB2BE48925F480F600BAF1A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2BE48725F480F600BAF1A5 /* LaunchScreen.storyboard */; };
+		EB2BE49225F481B000BAF1A5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE49125F481B000BAF1A5 /* SignUpViewController.swift */; };
+		EB2BE49525F481DE00BAF1A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE49425F481DE00BAF1A5 /* LoginViewController.swift */; };
+		EB2BE49825F4820200BAF1A5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE49725F4820200BAF1A5 /* HomeViewController.swift */; };
+		EB2BE49D25F4A02600BAF1A5 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE49C25F4A02600BAF1A5 /* Utilities.swift */; };
+		EB2BE4A225F4A68B00BAF1A5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB2BE4A125F4A68B00BAF1A5 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87A1B68EE4AB10031F304BD4 /* Pods-nibmcafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nibmcafe.release.xcconfig"; path = "Target Support Files/Pods-nibmcafe/Pods-nibmcafe.release.xcconfig"; sourceTree = "<group>"; };
+		E54DC1BBAE936A1B5C2B6BC4 /* Pods-nibmcafe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nibmcafe.debug.xcconfig"; path = "Target Support Files/Pods-nibmcafe/Pods-nibmcafe.debug.xcconfig"; sourceTree = "<group>"; };
+		EB2BE47925F480F500BAF1A5 /* nibmcafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nibmcafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2BE47C25F480F500BAF1A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB2BE47E25F480F500BAF1A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB2BE48025F480F500BAF1A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB2BE48325F480F500BAF1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB2BE48525F480F600BAF1A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB2BE48825F480F600BAF1A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB2BE48A25F480F600BAF1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2BE49125F481B000BAF1A5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EB2BE49425F481DE00BAF1A5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EB2BE49725F4820200BAF1A5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EB2BE49C25F4A02600BAF1A5 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		EB2BE4A125F4A68B00BAF1A5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FF532FA6968AADFB690CA81C /* Pods_nibmcafe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nibmcafe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB2BE47625F480F500BAF1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341E36FBD807158EE06494C1 /* Pods_nibmcafe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9CE807FCC8BB9CAA49E5ACD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E54DC1BBAE936A1B5C2B6BC4 /* Pods-nibmcafe.debug.xcconfig */,
+				87A1B68EE4AB10031F304BD4 /* Pods-nibmcafe.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB2BE47025F480F500BAF1A5 = {
+			isa = PBXGroup;
+			children = (
+				EB2BE47B25F480F500BAF1A5 /* nibmcafe */,
+				EB2BE47A25F480F500BAF1A5 /* Products */,
+				9CE807FCC8BB9CAA49E5ACD9 /* Pods */,
+				FCC9B78E70F250278E96B784 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EB2BE47A25F480F500BAF1A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB2BE47925F480F500BAF1A5 /* nibmcafe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB2BE47B25F480F500BAF1A5 /* nibmcafe */ = {
+			isa = PBXGroup;
+			children = (
+				EB2BE47C25F480F500BAF1A5 /* AppDelegate.swift */,
+				EB2BE47E25F480F500BAF1A5 /* SceneDelegate.swift */,
+				EB2BE49F25F4A03200BAF1A5 /* Helpers */,
+				EB2BE49A25F4821100BAF1A5 /* View Controllers */,
+				EB2BE48225F480F500BAF1A5 /* Main.storyboard */,
+				EB2BE48525F480F600BAF1A5 /* Assets.xcassets */,
+				EB2BE48725F480F600BAF1A5 /* LaunchScreen.storyboard */,
+				EB2BE4A125F4A68B00BAF1A5 /* GoogleService-Info.plist */,
+				EB2BE48A25F480F600BAF1A5 /* Info.plist */,
+			);
+			path = nibmcafe;
+			sourceTree = "<group>";
+		};
+		EB2BE49A25F4821100BAF1A5 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EB2BE48025F480F500BAF1A5 /* ViewController.swift */,
+				EB2BE49125F481B000BAF1A5 /* SignUpViewController.swift */,
+				EB2BE49425F481DE00BAF1A5 /* LoginViewController.swift */,
+				EB2BE49725F4820200BAF1A5 /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EB2BE49F25F4A03200BAF1A5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB2BE49C25F4A02600BAF1A5 /* Utilities.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FCC9B78E70F250278E96B784 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF532FA6968AADFB690CA81C /* Pods_nibmcafe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB2BE47825F480F500BAF1A5 /* nibmcafe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2BE48D25F480F600BAF1A5 /* Build configuration list for PBXNativeTarget "nibmcafe" */;
+			buildPhases = (
+				7331B9EF18B3BEE59AE2B101 /* [CP] Check Pods Manifest.lock */,
+				EB2BE47525F480F500BAF1A5 /* Sources */,
+				EB2BE47625F480F500BAF1A5 /* Frameworks */,
+				EB2BE47725F480F500BAF1A5 /* Resources */,
+				FC3199206C00F04294864623 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nibmcafe;
+			productName = nibmcafe;
+			productReference = EB2BE47925F480F500BAF1A5 /* nibmcafe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB2BE47125F480F500BAF1A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					EB2BE47825F480F500BAF1A5 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = EB2BE47425F480F500BAF1A5 /* Build configuration list for PBXProject "nibmcafe" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB2BE47025F480F500BAF1A5;
+			productRefGroup = EB2BE47A25F480F500BAF1A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB2BE47825F480F500BAF1A5 /* nibmcafe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB2BE47725F480F500BAF1A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2BE48925F480F600BAF1A5 /* LaunchScreen.storyboard in Resources */,
+				EB2BE4A225F4A68B00BAF1A5 /* GoogleService-Info.plist in Resources */,
+				EB2BE48625F480F600BAF1A5 /* Assets.xcassets in Resources */,
+				EB2BE48425F480F500BAF1A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7331B9EF18B3BEE59AE2B101 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nibmcafe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC3199206C00F04294864623 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nibmcafe/Pods-nibmcafe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nibmcafe/Pods-nibmcafe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nibmcafe/Pods-nibmcafe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB2BE47525F480F500BAF1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2BE48125F480F500BAF1A5 /* ViewController.swift in Sources */,
+				EB2BE47D25F480F500BAF1A5 /* AppDelegate.swift in Sources */,
+				EB2BE49D25F4A02600BAF1A5 /* Utilities.swift in Sources */,
+				EB2BE49225F481B000BAF1A5 /* SignUpViewController.swift in Sources */,
+				EB2BE49525F481DE00BAF1A5 /* LoginViewController.swift in Sources */,
+				EB2BE47F25F480F500BAF1A5 /* SceneDelegate.swift in Sources */,
+				EB2BE49825F4820200BAF1A5 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB2BE48225F480F500BAF1A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2BE48325F480F500BAF1A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB2BE48725F480F600BAF1A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2BE48825F480F600BAF1A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB2BE48B25F480F600BAF1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB2BE48C25F480F600BAF1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB2BE48E25F480F600BAF1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E54DC1BBAE936A1B5C2B6BC4 /* Pods-nibmcafe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nibmcafe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatrix.nibmcafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB2BE48F25F480F600BAF1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A1B68EE4AB10031F304BD4 /* Pods-nibmcafe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = nibmcafe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hatrix.nibmcafe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB2BE47425F480F500BAF1A5 /* Build configuration list for PBXProject "nibmcafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2BE48B25F480F600BAF1A5 /* Debug */,
+				EB2BE48C25F480F600BAF1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2BE48D25F480F600BAF1A5 /* Build configuration list for PBXNativeTarget "nibmcafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2BE48E25F480F600BAF1A5 /* Debug */,
+				EB2BE48F25F480F600BAF1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB2BE47125F480F500BAF1A5 /* Project object */;
+}
